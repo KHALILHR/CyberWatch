@@ -1,0 +1,63 @@
+INFO 2025-12-11 01:30:20,258 network_discovery No network interfaces configured. Running auto-discovery...
+INFO 2025-12-11 01:30:20,263 network_discovery Discovered network interface: \Device\NPF_{CB8D0426-CA38-406A-ACC4-CBED3B3CA155} (192.168.0.100)
+INFO 2025-12-11 01:30:20,265 network_discovery Discovered network interface: \Device\NPF_{3B596F68-780C-4F2E-8FBA-B634431A232E} (192.168.78.1)
+INFO 2025-12-11 01:30:20,266 network_discovery Discovered network interface: \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614} (192.168.152.1)
+INFO 2025-12-11 01:30:20,267 network_discovery Discovered network interface: \Device\NPF_{F46FCC41-3CA6-4909-8E30-F24B1E6A44EE} (169.254.118.175)
+INFO 2025-12-11 01:30:20,269 network_discovery Discovered network interface: \Device\NPF_{C88DC6A0-3539-49D1-B5DD-40AC76B603D7} (169.254.49.97)
+INFO 2025-12-11 01:30:20,271 network_discovery Discovered network interface: \Device\NPF_{B16D3CA5-8BA8-43F3-9557-B29A185F8DFE} (169.254.205.123)
+INFO 2025-12-11 01:30:20,272 network_discovery Discovered network interface: \Device\NPF_{6E94EE97-E077-419C-8892-964D3DEFFDEE} (169.254.53.62)
+INFO 2025-12-11 01:30:20,272 network_discovery Network discovery complete. Found 7 new interfaces.
+INFO 2025-12-11 01:30:22,769 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-11 01:32:04,722 packet_capture Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-11 10:54:48,032 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+WARNING 2025-12-11 10:56:41,142 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 10:56:41,146 alert_manager Created alert #1 for threat #1
+ERROR 2025-12-11 10:56:41,332 blocker Failed to block IP 192.168.152.254: 
+INFO 2025-12-11 10:58:35,819 packet_capture Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-11 10:59:25,192 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+WARNING 2025-12-11 11:11:41,285 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 11:11:41,289 alert_manager Created alert #2 for threat #2
+ERROR 2025-12-11 11:11:41,423 blocker Failed to block IP 192.168.152.254: 
+INFO 2025-12-11 11:11:58,220 packet_capture Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-11 11:33:10,450 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-11 11:33:42,844 packet_capture Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+ERROR 2025-12-11 11:36:42,321 packet_capture Error processing packet: 'dns'
+INFO 2025-12-11 13:11:19,051 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+WARNING 2025-12-11 13:11:42,185 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 13:11:42,193 alert_manager Created alert #3 for threat #3
+ERROR 2025-12-11 13:11:42,501 blocker Failed to block IP 192.168.152.254: 
+ERROR 2025-12-11 13:13:45,534 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 13:26:42,204 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 13:26:42,208 alert_manager Created alert #4 for threat #4
+ERROR 2025-12-11 13:26:42,686 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 13:41:41,546 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 13:41:41,549 alert_manager Created alert #5 for threat #5
+ERROR 2025-12-11 13:41:41,855 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 13:56:41,799 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 13:56:41,804 alert_manager Created alert #6 for threat #6
+ERROR 2025-12-11 13:56:42,088 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 14:11:41,993 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 14:11:42,000 alert_manager Created alert #7 for threat #7
+ERROR 2025-12-11 14:11:42,253 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 20:09:55,660 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 20:09:55,688 alert_manager Created alert #8 for threat #8
+ERROR 2025-12-11 20:09:58,479 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 20:09:58,490 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 20:09:58,498 alert_manager Alert deduplicated for Rogue DHCP Server - CRITICAL at 2025-12-11 19:09:58.488162+00:00
+WARNING 2025-12-11 20:24:55,465 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 20:24:55,483 alert_manager Created alert #9 for threat #10
+ERROR 2025-12-11 20:24:56,158 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 20:39:55,948 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 20:39:55,953 alert_manager Created alert #10 for threat #11
+ERROR 2025-12-11 20:39:56,215 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-11 20:54:55,462 dhcp_detector Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)
+INFO 2025-12-11 20:54:55,464 alert_manager Created alert #11 for threat #12
+ERROR 2025-12-11 20:54:55,739 blocker Failed to block IP 192.168.152.254: 
+WARNING 2025-12-12 21:55:53,097 packet_capture No capture running on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+WARNING 2025-12-12 22:15:57,003 mitm_detector Could not auto-detect gateway IP
+INFO 2025-12-12 22:15:57,004 packet_capture Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}
+INFO 2025-12-12 22:16:27,010 packet_capture MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0
+INFO 2025-12-12 22:16:57,016 packet_capture MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0
+INFO 2025-12-12 22:17:27,018 packet_capture MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0
+INFO 2025-12-12 22:17:57,023 packet_capture MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0
+WARNING 2025-12-12 22:18:27,612 packet_capture No capture running on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}

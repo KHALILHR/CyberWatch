@@ -1,0 +1,63 @@
+{"level": "INFO", "time": "2025-12-11 01:30:20,258", "module": "network_discovery", "message": "No network interfaces configured. Running auto-discovery..."}
+{"level": "INFO", "time": "2025-12-11 01:30:20,263", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{CB8D0426-CA38-406A-ACC4-CBED3B3CA155} (192.168.0.100)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,265", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{3B596F68-780C-4F2E-8FBA-B634431A232E} (192.168.78.1)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,266", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614} (192.168.152.1)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,267", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{F46FCC41-3CA6-4909-8E30-F24B1E6A44EE} (169.254.118.175)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,269", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{C88DC6A0-3539-49D1-B5DD-40AC76B603D7} (169.254.49.97)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,271", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{B16D3CA5-8BA8-43F3-9557-B29A185F8DFE} (169.254.205.123)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,272", "module": "network_discovery", "message": "Discovered network interface: \Device\NPF_{6E94EE97-E077-419C-8892-964D3DEFFDEE} (169.254.53.62)"}
+{"level": "INFO", "time": "2025-12-11 01:30:20,272", "module": "network_discovery", "message": "Network discovery complete. Found 7 new interfaces."}
+{"level": "INFO", "time": "2025-12-11 01:30:22,769", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-11 01:32:04,722", "module": "packet_capture", "message": "Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-11 10:54:48,032", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "WARNING", "time": "2025-12-11 10:56:41,142", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 10:56:41,146", "module": "alert_manager", "message": "Created alert #1 for threat #1"}
+{"level": "ERROR", "time": "2025-12-11 10:56:41,332", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "INFO", "time": "2025-12-11 10:58:35,819", "module": "packet_capture", "message": "Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-11 10:59:25,192", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "WARNING", "time": "2025-12-11 11:11:41,285", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 11:11:41,289", "module": "alert_manager", "message": "Created alert #2 for threat #2"}
+{"level": "ERROR", "time": "2025-12-11 11:11:41,423", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "INFO", "time": "2025-12-11 11:11:58,220", "module": "packet_capture", "message": "Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-11 11:33:10,450", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-11 11:33:42,844", "module": "packet_capture", "message": "Stopped packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "ERROR", "time": "2025-12-11 11:36:42,321", "module": "packet_capture", "message": "Error processing packet: 'dns'"}
+{"level": "INFO", "time": "2025-12-11 13:11:19,051", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "WARNING", "time": "2025-12-11 13:11:42,185", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 13:11:42,193", "module": "alert_manager", "message": "Created alert #3 for threat #3"}
+{"level": "ERROR", "time": "2025-12-11 13:11:42,501", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "ERROR", "time": "2025-12-11 13:13:45,534", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 13:26:42,204", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 13:26:42,208", "module": "alert_manager", "message": "Created alert #4 for threat #4"}
+{"level": "ERROR", "time": "2025-12-11 13:26:42,686", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 13:41:41,546", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 13:41:41,549", "module": "alert_manager", "message": "Created alert #5 for threat #5"}
+{"level": "ERROR", "time": "2025-12-11 13:41:41,855", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 13:56:41,799", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 13:56:41,804", "module": "alert_manager", "message": "Created alert #6 for threat #6"}
+{"level": "ERROR", "time": "2025-12-11 13:56:42,088", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 14:11:41,993", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 14:11:42,000", "module": "alert_manager", "message": "Created alert #7 for threat #7"}
+{"level": "ERROR", "time": "2025-12-11 14:11:42,253", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 20:09:55,660", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 20:09:55,688", "module": "alert_manager", "message": "Created alert #8 for threat #8"}
+{"level": "ERROR", "time": "2025-12-11 20:09:58,479", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 20:09:58,490", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 20:09:58,498", "module": "alert_manager", "message": "Alert deduplicated for Rogue DHCP Server - CRITICAL at 2025-12-11 19:09:58.488162+00:00"}
+{"level": "WARNING", "time": "2025-12-11 20:24:55,465", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 20:24:55,483", "module": "alert_manager", "message": "Created alert #9 for threat #10"}
+{"level": "ERROR", "time": "2025-12-11 20:24:56,158", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 20:39:55,948", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 20:39:55,953", "module": "alert_manager", "message": "Created alert #10 for threat #11"}
+{"level": "ERROR", "time": "2025-12-11 20:39:56,215", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-11 20:54:55,462", "module": "dhcp_detector", "message": "Threat detected: Rogue DHCP server detected: 192.168.152.254 (00:50:56:fc:d5:6c)"}
+{"level": "INFO", "time": "2025-12-11 20:54:55,464", "module": "alert_manager", "message": "Created alert #11 for threat #12"}
+{"level": "ERROR", "time": "2025-12-11 20:54:55,739", "module": "blocker", "message": "Failed to block IP 192.168.152.254: "}
+{"level": "WARNING", "time": "2025-12-12 21:55:53,097", "module": "packet_capture", "message": "No capture running on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "WARNING", "time": "2025-12-12 22:15:57,003", "module": "mitm_detector", "message": "Could not auto-detect gateway IP"}
+{"level": "INFO", "time": "2025-12-12 22:15:57,004", "module": "packet_capture", "message": "Started packet capture on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}
+{"level": "INFO", "time": "2025-12-12 22:16:27,010", "module": "packet_capture", "message": "MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0"}
+{"level": "INFO", "time": "2025-12-12 22:16:57,016", "module": "packet_capture", "message": "MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0"}
+{"level": "INFO", "time": "2025-12-12 22:17:27,018", "module": "packet_capture", "message": "MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0"}
+{"level": "INFO", "time": "2025-12-12 22:17:57,023", "module": "packet_capture", "message": "MITM Statistics for \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}: ARP Spoofing: 0, DNS Spoofing: 0, DHCP Rogue: 0, MAC Duplication: 0, Gateway Changes: 0"}
+{"level": "WARNING", "time": "2025-12-12 22:18:27,612", "module": "packet_capture", "message": "No capture running on \Device\NPF_{1640438D-ABB0-44CC-B691-6932B7F7F614}"}

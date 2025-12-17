@@ -1,0 +1,167 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ threat.get_threat_type_display }} - CyberWatch{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <a href="{% url 'dashboard:threats_list' %}" class="btn btn-secondary mb-3">
+            <i class="bi bi-arrow-left"></i> Back to Threats
+        </a>
+
+        <h1 class="mb-3">
+            <i class="bi bi-exclamation-octagon"></i> Threat Details #{{ threat.id }}
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Threat Information</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+                        <th style="width: 30%;">Threat Type</th>
+                        <td>
+                            <span class="badge bg-secondary fs-6">
+                                {{ threat.get_threat_type_display }}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Severity</th>
+                        <td>
+                            {% if threat.severity == 'CRITICAL' %}
+                            <span class="badge badge-critical fs-6">CRITICAL</span>
+                            {% elif threat.severity == 'WARNING' %}
+                            <span class="badge badge-warning fs-6">WARNING</span>
+                            {% else %}
+                            <span class="badge badge-info fs-6">INFO</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Source IP</th>
+                        <td><code class="fs-6">{{ threat.source_ip|default:"-" }}</code></td>
+                    </tr>
+                    <tr>
+                        <th>Source MAC</th>
+                        <td><code class="fs-6">{{ threat.source_mac|default:"-" }}</code></td>
+                    </tr>
+                    <tr>
+                        <th>Target IP</th>
+                        <td><code class="fs-6">{{ threat.target_ip|default:"-" }}</code></td>
+                    </tr>
+                    <tr>
+                        <th>Target MAC</th>
+                        <td><code class="fs-6">{{ threat.target_mac|default:"-" }}</code></td>
+                    </tr>
+                    <tr>
+                        <th>Detected At</th>
+                        <td>{{ threat.detected_at|date:"Y-m-d H:i:s" }}</td>
+                    </tr>
+                    <tr>
+                        <th>Interface</th>
+                        <td>{{ threat.interface.name|default:"-" }}</td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <h6>Description</h6>
+                <p>{{ threat.description }}</p>
+
+                {% if threat.raw_data %}
+                <hr>
+                <h6>Raw Data</h6>
+                <pre class="bg-dark p-3 rounded"><code>{{ threat.raw_data|pprint }}</code></pre>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 class="mb-0">Actions</h5>
+            </div>
+            <div class="card-body">
+                {% if threat.is_blocked %}
+                <div class="alert alert-danger">
+                    <i class="bi bi-ban"></i> IP is currently blocked
+                </div>
+                {% elif threat.source_ip %}
+                <button class="btn btn-danger w-100 mb-2" onclick="blockIP({{ threat.id }})">
+                    <i class="bi bi-ban"></i> Block Source IP
+                </button>
+                {% endif %}
+
+                {% if threat.is_resolved %}
+                <div class="alert alert-success">
+                    <i class="bi bi-check-circle"></i> Threat is resolved
+                </div>
+                {% else %}
+                <button class="btn btn-success w-100 mb-2">
+                    <i class="bi bi-check2"></i> Mark as Resolved
+                </button>
+                {% endif %}
+
+                <button class="btn btn-secondary w-100">
+                    <i class="bi bi-flag"></i> Report False Positive
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Status</h5>
+            </div>
+            <div class="card-body">
+                <p class="mb-2">
+                    <strong>Blocked:</strong>
+                    {% if threat.is_blocked %}
+                    <span class="text-danger">Yes</span>
+                    {% else %}
+                    <span class="text-secondary">No</span>
+                    {% endif %}
+                </p>
+                <p class="mb-0">
+                    <strong>Resolved:</strong>
+                    {% if threat.is_resolved %}
+                    <span class="text-success">Yes</span>
+                    {% else %}
+                    <span class="text-warning">No</span>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function blockIP(threatId) {
+        if (confirm('Are you sure you want to block this IP address? This will create a Windows Firewall rule.')) {
+            fetch(`/threats/${threatId}/block/`, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        alert(data.message);
+                        location.reload();
+                    } else {
+                        alert('Error: ' + data.message);
+                    }
+                });
+        }
+    }
+</script>
+{% endblock %}

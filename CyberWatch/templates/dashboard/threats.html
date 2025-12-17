@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+
+{% block title %}Threats - CyberWatch{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="mb-3">
+            <i class="bi bi-exclamation-triangle"></i> Detected Threats
+        </h1>
+        <p class="text-secondary">All detected security threats and attacks</p>
+    </div>
+</div>
+
+<!-- Filters -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <form method="get" class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label">Threat Type</label>
+                        <select name="type" class="form-select">
+                            <option value="">All Types</option>
+                            {% for value, label in threat_types %}
+                            <option value="{{ value }}" {% if request.GET.type == value %}selected{% endif %}>
+                                {{ label }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Severity</label>
+                        <select name="severity" class="form-select">
+                            <option value="">All Severities</option>
+                            {% for value, label in severity_levels %}
+                            <option value="{{ value }}" {% if request.GET.severity == value %}selected{% endif %}>
+                                {{ label }}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <button type="submit" class="btn btn-primary me-2">
+                            <i class="bi bi-funnel"></i> Filter
+                        </button>
+                        <a href="{% url 'dashboard:threats_list' %}" class="btn btn-secondary">
+                            <i class="bi bi-x"></i> Clear
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Threats Table -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">All Threats ({{ threats.count }})</h5>
+            </div>
+            <div class="card-body">
+                {% if threats %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Detected At</th>
+                                <th>Type</th>
+                                <th>Severity</th>
+                                <th>Source IP</th>
+                                <th>Source MAC</th>
+                                <th>Description</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for threat in threats %}
+                            <tr>
+                                <td>#{{ threat.id }}</td>
+                                <td>{{ threat.detected_at|date:"Y-m-d H:i:s" }}</td>
+                                <td>
+                                    <span class="badge bg-secondary">
+                                        {{ threat.get_threat_type_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if threat.severity == 'CRITICAL' %}
+                                    <span class="badge badge-critical">CRITICAL</span>
+                                    {% elif threat.severity == 'WARNING' %}
+                                    <span class="badge badge-warning">WARNING</span>
+                                    {% else %}
+                                    <span class="badge badge-info">INFO</span>
+                                    {% endif %}
+                                </td>
+                                <td><code>{{ threat.source_ip|default:"-" }}</code></td>
+                                <td><code>{{ threat.source_mac|default:"-" }}</code></td>
+                                <td>{{ threat.description|truncatewords:15 }}</td>
+                                <td>
+                                    {% if threat.is_blocked %}
+                                    <span class="badge bg-danger">Blocked</span>
+                                    {% elif threat.is_resolved %}
+                                    <span class="badge bg-success">Resolved</span>
+                                    {% else %}
+                                    <span class="badge bg-warning">Active</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <a href="{% url 'dashboard:threat_detail' threat.id %}"
+                                        class="btn btn-sm btn-primary">
+                                        View
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="text-center py-5 text-secondary">
+                    <i class="bi bi-shield-check" style="font-size: 48px;"></i>
+                    <p class="mt-3">No threats found</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

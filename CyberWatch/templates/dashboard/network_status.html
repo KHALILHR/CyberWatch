@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+
+{% block title %}Network Status - CyberWatch{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="mb-3">
+            <i class="bi bi-ethernet"></i> Network Status
+        </h1>
+        <p class="text-secondary">Monitor network interfaces and ARP table</p>
+    </div>
+</div>
+
+<!-- Network Interfaces -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Network Interfaces</h5>
+            </div>
+            <div class="card-body">
+                {% if interfaces %}
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>IP Address</th>
+                                <th>MAC Address</th>
+                                <th>Status</th>
+                                <th>Monitoring</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for interface in interfaces %}
+                            <tr>
+                                <td><strong>{{ interface.name }}</strong></td>
+                                <td><code>{{ interface.ip_address }}</code></td>
+                                <td><code>{{ interface.mac_address }}</code></td>
+                                <td>
+                                    {% if interface.is_active %}
+                                    <span class="badge bg-success">Active</span>
+                                    {% else %}
+                                    <span class="badge bg-secondary">Inactive</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if interface.is_monitoring %}
+                                    <span class="monitoring-status active">
+                                        <span class="pulse"></span>
+                                        Monitoring
+                                    </span>
+                                    {% else %}
+                                    <span class="monitoring-status inactive">
+                                        Not Monitoring
+                                    </span>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="text-secondary">No network interfaces configured</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ARP Table -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">ARP Table</h5>
+            </div>
+            <div class="card-body">
+                {% if arp_entries %}
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>IP Address</th>
+                                <th>MAC Address</th>
+                                <th>Interface</th>
+                                <th>Status</th>
+                                <th>Changes</th>
+                                <th>Last Seen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for entry in arp_entries %}
+                            <tr>
+                                <td><code>{{ entry.ip_address }}</code></td>
+                                <td><code>{{ entry.mac_address }}</code></td>
+                                <td>{{ entry.interface.name }}</td>
+                                <td>
+                                    {% if entry.is_legitimate %}
+                                    <span class="badge bg-success">Legitimate</span>
+                                    {% else %}
+                                    <span class="badge bg-danger">Suspicious</span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ entry.times_changed }}</td>
+                                <td>{{ entry.last_seen|timesince }} ago</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="text-secondary">No ARP entries recorded</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DHCP Servers -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">DHCP Servers</h5>
+            </div>
+            <div class="card-body">
+                {% if dhcp_servers %}
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Server IP</th>
+                                <th>Server MAC</th>
+                                <th>Status</th>
+                                <th>Offer Count</th>
+                                <th>Last Seen</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for server in dhcp_servers %}
+                            <tr>
+                                <td><code>{{ server.server_ip }}</code></td>
+                                <td><code>{{ server.server_mac }}</code></td>
+                                <td>
+                                    {% if server.is_legitimate %}
+                                    <span class="badge bg-success">Authorized</span>
+                                    {% else %}
+                                    <span class="badge bg-danger">Rogue</span>
+                                    {% endif %}
+                                </td>
+                                <td>{{ server.offer_count }}</td>
+                                <td>{{ server.last_seen|timesince }} ago</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <p class="text-secondary">No DHCP servers detected</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

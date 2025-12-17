@@ -1,0 +1,260 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - CyberWatch{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="mb-3">
+            <i class="bi bi-shield-lock"></i> Network Security Dashboard
+        </h1>
+        <p class="text-secondary">Real-time monitoring and threat detection</p>
+    </div>
+</div>
+
+<!-- Monitoring Status -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <div>
+                    <h5 class="mb-2">Monitoring Status</h5>
+                    {% if monitoring_active %}
+                    <span class="monitoring-status active">
+                        <span class="pulse"></span>
+                        Active - {{ active_interfaces.count }} interface(s)
+                    </span>
+                    {% else %}
+                    <span class="monitoring-status inactive">
+                        Inactive
+                    </span>
+                    {% endif %}
+                </div>
+                <div>
+                    {% if monitoring_active %}
+                    <button class="btn btn-danger" onclick="stopMonitoring()">
+                        <i class="bi bi-stop-circle"></i> Stop Monitoring
+                    </button>
+                    {% else %}
+                    <button class="btn btn-success" onclick="startMonitoring()">
+                        <i class="bi bi-play-circle"></i> Start Monitoring
+                    </button>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-label">Total Threats Today</div>
+            <div class="stat-value text-warning">{{ total_threats_today }}</div>
+            <small class="text-secondary">
+                <i class="bi bi-exclamation-triangle"></i> All detected threats
+            </small>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-label">Critical Threats</div>
+            <div class="stat-value text-danger">{{ critical_threats_today }}</div>
+            <small class="text-secondary">
+                <i class="bi bi-shield-exclamation"></i> Requires immediate action
+            </small>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-label">Blocked IPs</div>
+            <div class="stat-value text-success">{{ blocked_ips_count }}</div>
+            <small class="text-secondary">
+                <i class="bi bi-ban"></i> Actively blocked
+            </small>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <div class="stat-label">Network Interfaces</div>
+            <div class="stat-value text-info">{{ active_interfaces.count }}</div>
+            <small class="text-secondary">
+                <i class="bi bi-ethernet"></i> Being monitored
+            </small>
+        </div>
+    </div>
+</div>
+
+<!-- Recent Threats Table -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <i class="bi bi-clock-history"></i> Recent Threats
+                </h5>
+            </div>
+            <div class="card-body">
+                {% if recent_threats %}
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Type</th>
+                                <th>Severity</th>
+                                <th>Source IP</th>
+                                <th>Source MAC</th>
+                                <th>Description</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for threat in recent_threats %}
+                            <tr>
+                                <td>{{ threat.detected_at|date:"H:i:s" }}</td>
+                                <td>
+                                    <span class="badge bg-secondary">
+                                        {{ threat.get_threat_type_display }}
+                                    </span>
+                                </td>
+                                <td>
+                                    {% if threat.severity == 'CRITICAL' %}
+                                    <span class="badge badge-critical">CRITICAL</span>
+                                    {% elif threat.severity == 'WARNING' %}
+                                    <span class="badge badge-warning">WARNING</span>
+                                    {% else %}
+                                    <span class="badge badge-info">INFO</span>
+                                    {% endif %}
+                                </td>
+                                <td><code>{{ threat.source_ip|default:"-" }}</code></td>
+                                <td><code>{{ threat.source_mac|default:"-" }}</code></td>
+                                <td>{{ threat.description|truncatewords:10 }}</td>
+                                <td>
+                                    {% if threat.is_blocked %}
+                                    <span class="badge bg-danger">
+                                        <i class="bi bi-ban"></i> Blocked
+                                    </span>
+                                    {% elif threat.is_resolved %}
+                                    <span class="badge bg-success">
+                                        <i class="bi bi-check-circle"></i> Resolved
+                                    </span>
+                                    {% else %}
+                                    <span class="badge bg-warning">
+                                        <i class="bi bi-hourglass"></i> Active
+                                    </span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <a href="{% url 'dashboard:threat_detail' threat.id %}"
+                                        class="btn btn-sm btn-primary">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    {% if not threat.is_blocked and threat.source_ip %}
+                                    <button class="btn btn-sm btn-danger" onclick="blockIP({{ threat.id }})">
+                                        <i class="bi bi-ban"></i>
+                                    </button>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="text-center mt-3">
+                    <a href="{% url 'dashboard:threats_list' %}" class="btn btn-primary">
+                        View All Threats
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                {% else %}
+                <div class="text-center py-5 text-secondary">
+                    <i class="bi bi-shield-check" style="font-size: 48px;"></i>
+                    <p class="mt-3">No threats detected yet</p>
+                    <p class="small">Your network is secure</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function startMonitoring() {
+        // In a real implementation, this would get the interface ID from a select input
+        fetch("{% url 'dashboard:start_monitoring' %}", {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({})
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    location.reload();
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            });
+    }
+
+    function stopMonitoring() {
+        fetch("{% url 'dashboard:stop_monitoring' %}", {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({})
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    location.reload();
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            });
+    }
+
+    function blockIP(threatId) {
+        if (confirm('Are you sure you want to block this IP address?')) {
+            fetch(`/threats/${threatId}/block/`, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'success') {
+                        alert(data.message);
+                        location.reload();
+                    } else {
+                        alert('Error: ' + data.message);
+                    }
+                });
+        }
+    }
+
+    // Auto-refresh statistics every 10 seconds
+    setInterval(function () {
+        fetch("{% url 'dashboard:api_statistics' %}")
+            .then(response => response.json())
+            .then(data => {
+                // Update statistics if they changed
+                console.log('Statistics updated:', data);
+            });
+    }, 10000);
+</script>
+{% endblock %}
