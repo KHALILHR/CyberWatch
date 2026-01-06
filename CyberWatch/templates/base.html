@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -33,6 +33,20 @@
             min-height: 100vh;
         }
 
+        .form-control,
+        .form-select,
+        .form-control:focus,
+        .form-select:focus {
+            background-color: rgba(15, 23, 42, 0.6);
+            border-color: rgba(148, 163, 184, 0.25);
+            color: var(--text-primary);
+            box-shadow: none;
+        }
+
+        .form-control::placeholder {
+            color: rgba(148, 163, 184, 0.75);
+        }
+
         h1,
         h2,
         h3,
@@ -58,6 +72,7 @@
             top: 0;
             padding: 20px 0;
             overflow-y: auto;
+            display: none;
         }
 
         .sidebar-brand {
@@ -88,8 +103,36 @@
         }
 
         .main-content {
-            margin-left: 250px;
-            padding: 30px;
+            margin-left: 0;
+            padding: 16px;
+        }
+
+        @media (min-width: 992px) {
+            .sidebar {
+                display: block;
+            }
+
+            .main-content {
+                margin-left: 250px;
+                padding: 30px;
+            }
+        }
+
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            backdrop-filter: blur(10px);
+            background: rgba(15, 23, 42, 0.85);
+            border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+        }
+
+        .offcanvas {
+            background: var(--card-bg);
+        }
+
+        .offcanvas .sidebar-brand {
+            padding: 16px 0;
         }
 
         .card {
@@ -169,8 +212,22 @@
             color: var(--text-primary);
         }
 
-        .table thead {
-            border-bottom: 2px solid rgba(148, 163, 184, 0.2);
+        .table thead th {
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            font-size: 12px;
+        }
+
+        .table tbody tr {
+            border-color: rgba(148, 163, 184, 0.08);
+        }
+
+        .table td,
+        .table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
         }
 
         .monitoring-status {
@@ -217,6 +274,61 @@
 </head>
 
 <body>
+    <nav class="navbar topbar navbar-dark d-lg-none px-3">
+        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas"
+            aria-controls="sidebarOffcanvas">
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="fw-semibold">CyberWatch</div>
+        <a class="btn btn-outline-light" href="{% url 'admin:index' %}" target="_blank" aria-label="Admin Panel">
+            <i class="bi bi-person-gear"></i>
+        </a>
+    </nav>
+
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebarOffcanvas"
+        aria-labelledby="sidebarOffcanvasLabel">
+        <div class="offcanvas-header">
+            <div class="sidebar-brand" id="sidebarOffcanvasLabel">
+                <i class="bi bi-shield-lock-fill"></i>
+                CyberWatch
+            </div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <nav class="nav flex-column">
+                <a href="{% url 'dashboard:index' %}"
+                    class="nav-link {% if request.resolver_match.url_name == 'index' %}active{% endif %}">
+                    <i class="bi bi-speedometer2"></i>
+                    Dashboard
+                </a>
+                <a href="{% url 'dashboard:threats_list' %}"
+                    class="nav-link {% if 'threats' in request.path %}active{% endif %}">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    Threats
+                </a>
+                <a href="{% url 'dashboard:network_status' %}"
+                    class="nav-link {% if 'network' in request.path %}active{% endif %}">
+                    <i class="bi bi-ethernet"></i>
+                    Network Status
+                </a>
+                <a href="{% url 'dashboard:reports' %}"
+                    class="nav-link {% if 'reports' in request.path %}active{% endif %}">
+                    <i class="bi bi-file-earmark-text"></i>
+                    Reports
+                </a>
+                <a href="{% url 'dashboard:settings' %}"
+                    class="nav-link {% if 'settings' in request.path %}active{% endif %}">
+                    <i class="bi bi-gear"></i>
+                    Settings
+                </a>
+                <a href="{% url 'admin:index' %}" class="nav-link" target="_blank">
+                    <i class="bi bi-person-gear"></i>
+                    Admin Panel
+                </a>
+            </nav>
+        </div>
+    </div>
+
     <!-- Sidebar -->
     <div class="sidebar">
         <div class="sidebar-brand">

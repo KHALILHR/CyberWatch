@@ -1,0 +1,26 @@
+[
+    {
+        "id": 16,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T21:29:19.781627+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    },
+    {
+        "id": 15,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T21:14:19.392039+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    },
+    {
+        "id": 14,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T20:59:20.246017+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    }
+]

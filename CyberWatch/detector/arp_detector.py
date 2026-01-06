@@ -3,6 +3,7 @@ ARP Spoofing/Poisoning Detector
 """
 import logging
 from scapy.all import ARP, Ether
+from collections import defaultdict
 from django.utils import timezone
 from .models import DetectedThreat, ARPEntry
 from alerts.alert_manager import AlertManager
@@ -16,6 +17,8 @@ class ARPDetector:
     def __init__(self, interface):
         self.interface = interface
         self.arp_table = {}
+        # Track MAC -> set of IPs using it
+        self.mac_table = defaultdict(set)
         self.alert_manager = AlertManager()
     
     def analyze_packet(self, packet):
@@ -74,6 +77,22 @@ class ARPDetector:
         mac = arp.hwsrc
         
         self.arp_table[ip] = mac
+        # Track MAC -> IPs mapping for duplication detection
+        self.mac_table[mac].add(ip)
+
+        # Detect MAC duplication (same MAC claimed by >1 IP)
+        if len(self.mac_table[mac]) > 1:
+            self._create_threat(
+                threat_type='MAC_DUPLICATE',
+                severity='WARNING',
+                source_ip=None,
+                source_mac=mac,
+                description=f"MAC address {mac} is associated with multiple IPs: {', '.join(self.mac_table[mac])}",
+                raw_data={
+                    'mac_address': mac,
+                    'associated_ips': list(self.mac_table[mac]),
+                }
+            )
         
         # Update database
         ARPEntry.objects.update_or_create(
