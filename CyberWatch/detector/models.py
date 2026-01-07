@@ -27,11 +27,9 @@ class DetectedThreat(models.Model):
     """Main model for all detected threats"""
     THREAT_TYPES = [
         ('ARP_SPOOF', 'ARP Spoofing'),
-        ('ARP_POISON', 'ARP Poisoning'),
         ('DNS_SPOOF', 'DNS Spoofing'),
         ('ROGUE_DHCP', 'Rogue DHCP Server'),
         ('MAC_DUPLICATE', 'MAC Address Duplication'),
-        ('ARP_SCAN', 'ARP Scan Detected'),
     ]
     
     SEVERITY_LEVELS = [

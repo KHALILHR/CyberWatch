@@ -7,12 +7,19 @@ from django.http import JsonResponse
 from django.views.decorators.http import require_http_methods
 from django.utils import timezone
 from datetime import timedelta
+from django.core.validators import validate_email
+from django.core.exceptions import ValidationError
+from django.core.mail import send_mail
+from django.conf import settings
 
 from detector.models import DetectedThreat, NetworkInterface, ARPEntry, DNSQuery, DHCPServer, BlockedIP
 from alerts.models import Alert
 from reports.models import ThreatStatistic, Report
 
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -63,11 +70,14 @@ def threats_list(request):
     # Filtering
     threat_type = request.GET.get('type')
     severity = request.GET.get('severity')
+    blocked_ip = request.GET.get('blocked_ip')
     
     if threat_type:
         threats = threats.filter(threat_type=threat_type)
     if severity:
         threats = threats.filter(severity=severity)
+    if blocked_ip == 'yes':
+        threats = threats.filter(is_blocked=True)
     
     # Order by most recent first
     threats = threats.order_by('-detected_at')[:100]
@@ -97,7 +107,19 @@ def start_monitoring(request):
     """Start network monitoring"""
     from detector.packet_capture import get_capture_manager
     
-    interface_id = request.POST.get('interface_id')
+    request_data = {}
+    if request.content_type == 'application/json':
+        try:
+            if request.body:
+                request_data = json.loads(request.body.decode('utf-8'))
+        except Exception:
+            request_data = {}
+    
+    interface_id = request.POST.get('interface_id') or request_data.get('interface_id')
+
+    if not request.session.get('monitoring_started_at'):
+        request.session['monitoring_started_at'] = timezone.now().isoformat()
+        request.session.modified = True
     
     # If no interface specified, use the first active one
     if not interface_id:
@@ -143,7 +165,15 @@ def stop_monitoring(request):
     """Stop network monitoring"""
     from detector.packet_capture import get_capture_manager
     
-    interface_id = request.POST.get('interface_id')
+    request_data = {}
+    if request.content_type == 'application/json':
+        try:
+            if request.body:
+                request_data = json.loads(request.body.decode('utf-8'))
+        except Exception:
+            request_data = {}
+    
+    interface_id = request.POST.get('interface_id') or request_data.get('interface_id')
     
     # If no interface specified, stop all monitoring interfaces
     if not interface_id:
@@ -165,10 +195,14 @@ def stop_monitoring(request):
                 stopped_count += 1
             except Exception as e:
                 pass  # Continue stopping others
+
+        email_result = _send_alert_summary_email_if_needed(request)
+        _clear_monitoring_session_if_stopped(request)
         
         return JsonResponse({
             'status': 'success',
-            'message': f'Monitoring stopped on {stopped_count} interface(s)'
+            'message': f'Monitoring stopped on {stopped_count} interface(s)',
+            'email_summary': email_result,
         })
     else:
         interface = get_object_or_404(NetworkInterface, id=interface_id)
@@ -180,16 +214,105 @@ def stop_monitoring(request):
         try:
             manager = get_capture_manager()
             manager.stop_capture(interface)
+
+            if not NetworkInterface.objects.filter(is_monitoring=True).exists():
+                email_result = _send_alert_summary_email_if_needed(request)
+                _clear_monitoring_session_if_stopped(request)
+            else:
+                email_result = {'sent': False, 'reason': 'monitoring_still_active'}
             
             return JsonResponse({
                 'status': 'success',
-                'message': f'Monitoring stopped on {interface.name}'
+                'message': f'Monitoring stopped on {interface.name}',
+                'email_summary': email_result,
             })
         except Exception as e:
             return JsonResponse({
                 'status': 'error',
                 'message': f'Failed to stop monitoring: {str(e)}'
             }, status=500)
+
+
+@require_http_methods(["POST"])
+def set_notification_email(request):
+    email = request.POST.get('email', '').strip()
+    if not email:
+        request.session.pop('notification_email', None)
+        request.session.modified = True
+        return JsonResponse({'status': 'success'})
+
+    try:
+        validate_email(email)
+    except ValidationError:
+        return JsonResponse({'status': 'error', 'message': 'Invalid email address'}, status=400)
+
+    request.session['notification_email'] = email
+    request.session.modified = True
+    return JsonResponse({'status': 'success'})
+
+
+def _clear_monitoring_session_if_stopped(request):
+    if NetworkInterface.objects.filter(is_monitoring=True).exists():
+        return
+    request.session.pop('monitoring_started_at', None)
+    request.session.pop('last_alert_email_sent_at', None)
+    request.session.modified = True
+
+
+def _send_alert_summary_email_if_needed(request):
+    email = request.session.get('notification_email')
+    started_at_str = request.session.get('monitoring_started_at')
+    if not email or not started_at_str:
+        return {'sent': False, 'reason': 'missing_email_or_start_time'}
+
+    try:
+        started_at = timezone.datetime.fromisoformat(started_at_str)
+        if timezone.is_naive(started_at):
+            started_at = timezone.make_aware(started_at, timezone.get_current_timezone())
+    except Exception:
+        return {'sent': False, 'reason': 'invalid_start_time'}
+
+    last_sent_str = request.session.get('last_alert_email_sent_at')
+    if last_sent_str:
+        try:
+            last_sent = timezone.datetime.fromisoformat(last_sent_str)
+            if timezone.is_naive(last_sent):
+                last_sent = timezone.make_aware(last_sent, timezone.get_current_timezone())
+            started_at = max(started_at, last_sent)
+        except Exception:
+            pass
+
+    alerts = Alert.objects.filter(created_at__gte=started_at).select_related('threat')[:50]
+    if not alerts.exists():
+        return {'sent': False, 'reason': 'no_alerts'}
+
+    subject = f"[CyberWatch] {alerts.count()} alert(s) during monitoring"
+    lines = []
+    for alert in alerts:
+        threat = alert.threat
+        lines.append(
+            f"- #{alert.id} {threat.get_threat_type_display()} | {threat.severity} | {threat.source_ip or 'N/A'} | {alert.status} | {alert.created_at}"
+        )
+
+    body = "CyberWatch monitoring session summary\n\n" + "\n".join(lines)
+
+    try:
+        send_mail(
+            subject=subject,
+            message=body,
+            from_email=getattr(settings, 'DEFAULT_FROM_EMAIL', None),
+            recipient_list=[email],
+            fail_silently=False,
+        )
+        request.session['last_alert_email_sent_at'] = timezone.now().isoformat()
+        request.session.pop('last_alert_email_error', None)
+        request.session.modified = True
+        return {'sent': True, 'recipient': email, 'count': alerts.count()}
+    except Exception:
+        logger.exception('Failed to send alert summary email to %s', email)
+        request.session['last_alert_email_error'] = 'Failed to send email. Check server logs / SMTP settings.'
+        request.session.modified = True
+        return {'sent': False, 'reason': 'send_failed'}
 
 
 @require_http_methods(["POST"])
@@ -208,9 +331,10 @@ def block_ip(request, threat_id):
             threat.save()
             return JsonResponse({'status': 'success', 'message': f'IP {threat.source_ip} blocked'})
         else:
-            return JsonResponse({'status': 'error', 'message': 'Failed to block IP'}, status=500)
+            message = blocker.last_error or 'Failed to block IP'
+            return JsonResponse({'status': 'error', 'message': message}, status=500)
     
-    return JsonResponse(stats)
+    return JsonResponse({'status': 'error', 'message': 'No source IP available for this threat'}, status=400)
 
 
 @require_http_methods(["POST"])
@@ -322,11 +446,15 @@ def unblock_ip(request, ip_id):
         
         return JsonResponse({'status': 'success', 'message': f'IP {blocked_ip.ip_address} unblocked'})
     else:
-        return JsonResponse({'status': 'error', 'message': 'Failed to unblock IP'}, status=500)
+        message = blocker.last_error or 'Failed to unblock IP'
+        return JsonResponse({'status': 'error', 'message': message}, status=500)
 
 
 def network_status(request):
     """Network status and interface information"""
+    from detector.network_discovery import ensure_interfaces_exist
+    ensure_interfaces_exist()
+    
     interfaces = NetworkInterface.objects.all()
     arp_entries = ARPEntry.objects.all()[:50]
     dhcp_servers = DHCPServer.objects.all()

@@ -18,7 +18,7 @@
         <div class="card">
             <div class="card-body">
                 <form method="get" class="row g-3">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label class="form-label">Threat Type</label>
                         <select name="type" class="form-select">
                             <option value="">All Types</option>
@@ -29,7 +29,7 @@
                             {% endfor %}
                         </select>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <label class="form-label">Severity</label>
                         <select name="severity" class="form-select">
                             <option value="">All Severities</option>
@@ -40,7 +40,16 @@
                             {% endfor %}
                         </select>
                     </div>
-                    <div class="col-md-4 d-flex align-items-end">
+                    <div class="col-md-3">
+                        <label class="form-label">Blocked IP</label>
+                        <select name="blocked_ip" class="form-select">
+                            <option value="">All Threats</option>
+                            <option value="yes" {% if request.GET.blocked_ip == 'yes' %}selected{% endif %}>
+                                Blocked IPs Only
+                            </option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 d-flex align-items-end">
                         <button type="submit" class="btn btn-primary me-2">
                             <i class="bi bi-funnel"></i> Filter
                         </button>

@@ -24,4 +24,5 @@ urlpatterns = [
     # API endpoints
     path('api/threats/recent/', views.api_threats_recent, name='api_threats_recent'),
     path('api/statistics/', views.api_statistics, name='api_statistics'),
+    path('api/notification-email/', views.set_notification_email, name='set_notification_email'),
 ]

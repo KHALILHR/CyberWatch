@@ -12,6 +12,35 @@
     </div>
 </div>
 
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3">
+                <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2">
+                    <div class="fw-semibold">Network Interface:</div>
+                    <select class="form-select" id="monitorInterfaceSelect" style="min-width: 320px;">
+                        {% for interface in interfaces %}
+                        {% if interface.is_active %}
+                        <option value="{{ interface.id }}" {% if interface.is_monitoring %}selected{% endif %}>
+                            {{ interface.name }} ({{ interface.ip_address }})
+                        </option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="d-flex flex-wrap gap-2">
+                    <button type="button" class="btn btn-success" id="startMonitoringSelectedBtn">
+                        <i class="bi bi-play-circle"></i> Start Scan
+                    </button>
+                    <button type="button" class="btn btn-danger" id="stopMonitoringSelectedBtn">
+                        <i class="bi bi-stop-circle"></i> Stop Scan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Network Interfaces -->
 <div class="row mb-4">
     <div class="col-12">
@@ -30,6 +59,7 @@
                                 <th>MAC Address</th>
                                 <th>Status</th>
                                 <th>Monitoring</th>
+                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -55,6 +85,17 @@
                                     <span class="monitoring-status inactive">
                                         Not Monitoring
                                     </span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if interface.is_monitoring %}
+                                    <button type="button" class="btn btn-sm btn-danger" data-action="stop-monitoring" data-interface-id="{{ interface.id }}">
+                                        <i class="bi bi-stop-circle"></i> Stop
+                                    </button>
+                                    {% else %}
+                                    <button type="button" class="btn btn-sm btn-success" data-action="start-monitoring" data-interface-id="{{ interface.id }}">
+                                        <i class="bi bi-play-circle"></i> Start
+                                    </button>
                                     {% endif %}
                                 </td>
                             </tr>
@@ -165,4 +206,139 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    function getCsrfToken() {
+        const tokenFromTemplate = '{{ csrf_token }}';
+        if (tokenFromTemplate && tokenFromTemplate !== 'NOTPROVIDED') {
+            return tokenFromTemplate;
+        }
+        return getCookie('csrftoken');
+    }
+
+    function postMonitoring(url, interfaceId) {
+        const form = new FormData();
+        if (interfaceId) {
+            form.append('interface_id', interfaceId);
+        }
+
+        return fetch(url, {
+            method: 'POST',
+            credentials: 'same-origin',
+            headers: {
+                'X-CSRFToken': getCsrfToken(),
+            },
+            body: form,
+        }).then(async response => {
+            const rawText = await response.text();
+            let payload = null;
+            try {
+                payload = rawText ? JSON.parse(rawText) : null;
+            } catch (e) {
+                payload = null;
+            }
+
+            if (!response.ok) {
+                return {
+                    status: 'error',
+                    message: payload?.message || rawText || `Request failed (${response.status})`
+                };
+            }
+
+            return payload || { status: 'success' };
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const interfaceSelect = document.getElementById('monitorInterfaceSelect');
+        const startSelectedBtn = document.getElementById('startMonitoringSelectedBtn');
+        const stopSelectedBtn = document.getElementById('stopMonitoringSelectedBtn');
+
+        if (startSelectedBtn && interfaceSelect) {
+            startSelectedBtn.addEventListener('click', function () {
+                postMonitoring("{% url 'dashboard:start_monitoring' %}", interfaceSelect.value)
+                    .then(data => {
+                        if (data.status === 'success' || data.status === 'info') {
+                            location.reload();
+                        } else {
+                            alert(data.message || 'Failed to start monitoring');
+                        }
+                    })
+                    .catch(err => alert(err?.message || 'Failed to start monitoring'));
+            });
+        }
+
+        if (stopSelectedBtn && interfaceSelect) {
+            stopSelectedBtn.addEventListener('click', function () {
+                postMonitoring("{% url 'dashboard:stop_monitoring' %}", interfaceSelect.value)
+                    .then(data => {
+                        if (data.status === 'success' || data.status === 'info') {
+                            if (data.email_summary) {
+                                if (data.email_summary.sent) {
+                                    alert(`Email summary sent to ${data.email_summary.recipient} (${data.email_summary.count} alert(s))`);
+                                } else if (data.email_summary.reason === 'send_failed') {
+                                    alert('Email sending failed. Check SMTP settings (EMAIL_HOST_USER / EMAIL_HOST_PASSWORD) and server logs.');
+                                } else if (data.email_summary.reason === 'missing_email_or_start_time') {
+                                    alert('No notification email saved yet. Please enter your email in the popup and try again.');
+                                } else if (data.email_summary.reason === 'no_alerts') {
+                                    // No email should be sent when there are no alerts
+                                }
+                            }
+                            location.reload();
+                        } else {
+                            alert(data.message || 'Failed to stop monitoring');
+                        }
+                    })
+                    .catch(err => alert(err?.message || 'Failed to stop monitoring'));
+            });
+        }
+
+        document.querySelectorAll('[data-action="start-monitoring"]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                postMonitoring("{% url 'dashboard:start_monitoring' %}", btn.dataset.interfaceId)
+                    .then(data => {
+                        if (data.status === 'success') {
+                            location.reload();
+                        } else {
+                            alert(data.message || 'Failed to start monitoring');
+                        }
+                    })
+                    .catch(err => alert(err?.message || 'Failed to start monitoring'));
+            });
+        });
+
+        document.querySelectorAll('[data-action="stop-monitoring"]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                postMonitoring("{% url 'dashboard:stop_monitoring' %}", btn.dataset.interfaceId)
+                    .then(data => {
+                        if (data.status === 'success') {
+                            if (data.email_summary) {
+                                if (data.email_summary.sent) {
+                                    alert(`Email summary sent to ${data.email_summary.recipient} (${data.email_summary.count} alert(s))`);
+                                } else if (data.email_summary.reason === 'send_failed') {
+                                    alert('Email sending failed. Check SMTP settings (EMAIL_HOST_USER / EMAIL_HOST_PASSWORD) and server logs.');
+                                } else if (data.email_summary.reason === 'missing_email_or_start_time') {
+                                    alert('No notification email saved yet. Please enter your email in the popup and try again.');
+                                } else if (data.email_summary.reason === 'no_alerts') {
+                                    // No email should be sent when there are no alerts
+                                }
+                            }
+                            location.reload();
+                        } else {
+                            alert(data.message || 'Failed to stop monitoring');
+                        }
+                    })
+                    .catch(err => alert(err?.message || 'Failed to stop monitoring'));
+            });
+        });
+    });
+</script>
 {% endblock %}

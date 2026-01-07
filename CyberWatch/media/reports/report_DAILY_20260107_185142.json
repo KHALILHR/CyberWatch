@@ -1,0 +1,2394 @@
+[
+    {
+        "id": 312,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T18:50:47.999390+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 311,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T18:49:50.673698+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 310,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:59:25.378043+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 309,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:58:46.567161+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 308,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:54:10.626720+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 307,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:54:08.919286+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 306,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:54:08.102223+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 305,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:53:49.423369+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 304,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:40:03.032437+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 303,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:35:30.067121+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 302,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:34:40.136990+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 301,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:26:44.800206+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 300,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:26:17.557438+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 299,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:15:42.493508+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 298,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:15:30.733822+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 297,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:15:29.339512+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 296,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:15:20.968783+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 295,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:10:59.028885+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 294,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T17:10:45.271841+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 293,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.172097+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 292,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.169584+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 291,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.166671+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.161, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 290,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.164032+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 289,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.161553+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 288,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.159025+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 287,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.155165+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 286,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.152715+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 285,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.150223+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 284,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.147516+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 283,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.144006+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.161, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 282,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.139844+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 281,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.133186+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 280,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.128497+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.161, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 279,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.125327+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 278,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.121359+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 277,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.117455+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 276,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.113317+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 275,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.107704+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 274,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.103888+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 273,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.099171+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 272,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.096013+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.161, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 271,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.092408+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 270,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.089668+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 269,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.085463+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.167, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 268,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.082771+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 267,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.080048+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 266,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.076875+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 265,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.073808+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.54, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 264,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:47.068908+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 263,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.060902+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 262,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.058073+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 261,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.054737+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.161, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 260,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.051876+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 259,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:47.049052+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 258,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:45:46.838400+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 257,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.832271+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.56, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 256,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.829854+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 255,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.827464+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.167, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 254,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.824872+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 253,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.821828+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 252,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:45:46.608338+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.54, expected ['79.127.138.18', '79.127.138.15', '79.127.138.20']"
+    },
+    {
+        "id": 251,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T16:42:37.472283+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 250,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T16:41:54.263270+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 249,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:26.002931+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 248,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:25.991533+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 247,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:14.449527+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.135, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 246,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:14.440985+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.135, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 245,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:13.802564+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 244,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:13.795806+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 243,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:13.180722+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 242,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:13.172185+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.246, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 241,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:12.544673+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 240,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:12.536573+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.166, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 239,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:11.895657+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 238,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:11.888136+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.11, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 237,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:11.263750+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 236,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:11.255929+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.56, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 235,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:10.623659+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 234,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:10.616988+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.143, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 233,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:09.978791+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 232,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:09.972131+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.250, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 231,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:09.326662+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 230,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:09.320176+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.188, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 229,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:08.670256+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 228,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:08.663830+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 227,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:08.022138+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 226,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:08.015725+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.185, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 225,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:07.346861+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 224,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:07.340619+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 223,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:06.693841+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 222,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:06.687232+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.57, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 221,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:06.046319+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 220,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:06.039878+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.58, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 219,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:05.400944+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 218,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:05.393122+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.29, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 217,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.982759+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 216,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.973230+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 215,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.766466+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 214,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.760180+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.205, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 213,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.134369+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 212,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:04.127775+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.178, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 211,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:03.476655+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 210,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:03.467445+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.59, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 209,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:02.839924+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 208,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:02.831356+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.126, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 207,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:02.211919+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 206,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:02.205172+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 205,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:01.555057+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 204,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:01.548625+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76, 192.168.0.33"
+    },
+    {
+        "id": 203,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:00.914632+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 202,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:00.907922+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.114, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 201,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:00.276666+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 200,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:09:00.268148+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.171, 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 199,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:59.649632+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 198,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:59.643905+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.216, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 197,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:58.996267+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 196,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:58.988166+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.19, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 195,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:58.358075+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 194,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:58.351587+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 193,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:57.714450+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 192,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:57.707652+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.79, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 191,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:57.064187+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 190,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:57.056845+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 189,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:56.417160+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 188,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:56.409036+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.151, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 187,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:55.786438+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 186,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:55.780700+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.86, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 185,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:55.153358+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 184,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:55.145769+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.139, 192.168.0.27, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.167, 192.168.0.137, 192.168.0.189, 192.168.0.111, 192.168.0.109, 192.168.0.248, 192.168.0.65, 192.168.0.195, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.76"
+    },
+    {
+        "id": 183,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:54.498129+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.167, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 182,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:54.489814+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.167, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 181,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:53.863230+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 180,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:53.855772+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.227, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 179,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:53.227455+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 178,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:53.221187+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.44, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 177,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:52.573656+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 176,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:52.567709+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.233, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 175,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:51.932270+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 174,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:51.924218+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.145, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 173,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:51.297285+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 172,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:51.291450+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.137, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 171,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:50.646350+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 170,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:50.639825+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.248, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 169,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:50.007220+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 168,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:49.999851+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65, 192.168.0.195"
+    },
+    {
+        "id": 167,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:49.371767+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 166,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:49.364656+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.231, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 165,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:48.737704+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 164,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:48.731735+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.76, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 163,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:48.091138+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 162,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:48.084545+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.139, 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 161,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:47.437523+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 160,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:47.430177+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 159,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:46.810127+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 158,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:46.803449+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.27, 192.168.0.65"
+    },
+    {
+        "id": 157,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:46.171577+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.65"
+    },
+    {
+        "id": 156,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:46.164038+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.54, 192.168.0.215, 192.168.0.109, 192.168.0.65"
+    },
+    {
+        "id": 155,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:45.524818+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.215, 192.168.0.109, 192.168.0.65"
+    },
+    {
+        "id": 154,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:45.517981+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.189, 192.168.0.217, 192.168.0.215, 192.168.0.109, 192.168.0.65"
+    },
+    {
+        "id": 153,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:44.878483+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.109, 192.168.0.65, 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 152,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:44.872019+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.109, 192.168.0.65, 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 151,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:44.248134+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.65, 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 150,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:44.239985+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.65, 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 149,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:43.602142+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 148,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:08:43.587606+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.217, 192.168.0.215"
+    },
+    {
+        "id": 147,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:42.674521+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.60, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.161, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 146,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:42.667914+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.60, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.161, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 145,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:42.042448+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.161, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 144,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:42.036043+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.161, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 143,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:41.395664+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 142,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:41.388277+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.199, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 141,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:40.753552+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 140,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:40.747527+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.121, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 139,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:40.114652+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 138,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:40.107931+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.99, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 137,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:39.483286+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 136,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:39.476842+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.141, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 135,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.990092+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 134,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.984003+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 133,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.826245+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 132,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.819870+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.146, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 131,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.178177+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 130,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:38.172216+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 129,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:37.522247+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 128,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:37.515697+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.191, 192.168.0.150, 192.168.0.178, 192.168.0.232, 192.168.0.228, 192.168.0.193, 192.168.0.132, 192.168.0.115, 192.168.0.61, 192.168.0.103, 192.168.0.38, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.98, 192.168.0.76, 192.168.0.230, 192.168.0.222"
+    },
+    {
+        "id": 127,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:36.870907+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.103, 192.168.0.38, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 126,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:36.863845+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.103, 192.168.0.38, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 125,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:36.222303+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.103, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 124,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:36.215353+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.103, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 123,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:35.588909+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 122,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:35.582355+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.98, 192.168.0.61, 192.168.0.76, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 121,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:34.939425+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.76, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 120,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:34.932156+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.76, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 119,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:34.282415+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 118,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:34.276059+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 117,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:33.635262+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 116,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:33.628055+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.230, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 115,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:32.978862+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 114,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:32.972004+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.150, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 113,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:32.326581+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 112,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:32.320560+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.232, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 111,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:31.695816+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 110,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:31.688696+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.228, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 109,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:31.067005+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 108,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:31.060639+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.136, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 107,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:30.411703+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 106,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:30.404505+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.57, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 105,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:29.787959+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 104,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:29.781639+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115, 192.168.0.222"
+    },
+    {
+        "id": 103,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:29.163140+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115"
+    },
+    {
+        "id": 102,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:29.156241+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.61, 192.168.0.115"
+    },
+    {
+        "id": 101,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:28.518556+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.115"
+    },
+    {
+        "id": 100,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:28.512240+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.165, 192.168.0.193, 192.168.0.115"
+    },
+    {
+        "id": 99,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:27.870732+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.193, 192.168.0.115"
+    },
+    {
+        "id": 98,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:27.863674+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.193, 192.168.0.115"
+    },
+    {
+        "id": 97,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:27.222088+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.193"
+    },
+    {
+        "id": 96,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:27.216433+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70, 192.168.0.193"
+    },
+    {
+        "id": 95,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:26.590232+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70"
+    },
+    {
+        "id": 94,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:26.583816+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.191, 192.168.0.70"
+    },
+    {
+        "id": 93,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:25.941413+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.70"
+    },
+    {
+        "id": 92,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:25.935928+00:00",
+        "description": "MAC address 02:00:00:00:00:00 is associated with multiple IPs: 192.168.0.132, 192.168.0.70"
+    },
+    {
+        "id": 91,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:25.275382+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 90,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:25.268856+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 89,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:12.110468+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 88,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:07:12.104456+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 87,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:45.741231+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 86,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:45.736113+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 85,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:33.207415+00:00",
+        "description": "MAC address 00:0c:29:be:60:af is associated with multiple IPs: 192.168.0.125, 192.168.0.1"
+    },
+    {
+        "id": 84,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:33.201834+00:00",
+        "description": "MAC address 00:0c:29:be:60:af is associated with multiple IPs: 192.168.0.125, 192.168.0.1"
+    },
+    {
+        "id": 83,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.125",
+        "detected_at": "2026-01-07T16:06:33.193105+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.125 changed from MAC 14:75:5b:4c:6b:2a to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 82,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:24.745556+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 81,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:24.740344+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 80,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:19.126197+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 79,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:06:19.116857+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 78,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:05:52.493549+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 77,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:05:52.487966+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 76,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.607566+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.11, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 75,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.603673+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 74,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.599214+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 73,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.595712+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 72,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.593153+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 71,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.589643+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 70,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.585546+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 69,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.582656+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 68,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.580215+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 67,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.576775+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 66,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.574079+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 65,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.570216+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 64,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.564959+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 63,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.561940+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 62,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.559570+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 61,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.556774+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 60,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.554028+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 59,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.550578+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.11, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 58,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.545100+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 57,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.541323+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 56,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.537603+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 55,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.532859+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 54,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.529752+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 53,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.526975+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 52,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.522816+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 51,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.519816+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 50,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.517276+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.12, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 49,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.514116+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 48,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.511306+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.9, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 47,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.96.100",
+        "detected_at": "2026-01-07T16:05:40.503618+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 46,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.497738+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 45,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.494681+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 44,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.491794+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 43,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.489093+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 42,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.485543+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 41,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.480355+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.11, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 40,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.474050+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 39,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.470089+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 38,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.465744+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.11, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 37,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.463248+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 36,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.460284+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 35,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.456922+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 34,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.451395+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.8, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 33,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.449031+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.168, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 32,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.446291+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.162, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 31,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.443312+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.53, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 30,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.439544+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 79.127.178.57, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 29,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "103.86.99.100",
+        "detected_at": "2026-01-07T16:05:40.429869+00:00",
+        "description": "DNS spoofing detected for downloads77-windows.njtzzrvg0lwj3bsn.info: got 185.93.2.11, expected ['79.127.138.21', '79.127.138.18', '79.127.138.15']"
+    },
+    {
+        "id": 28,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:05:25.614518+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 27,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:05:25.608466+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 26,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "8.8.4.4",
+        "detected_at": "2026-01-07T16:05:01.519725+00:00",
+        "description": "DNS spoofing detected for honzik.avcdn.net: got 95.101.35.201, expected ['23.205.47.166', '23.205.47.182']"
+    },
+    {
+        "id": 25,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "8.8.4.4",
+        "detected_at": "2026-01-07T16:05:01.510070+00:00",
+        "description": "DNS spoofing detected for honzik.avcdn.net: got 95.101.35.210, expected ['23.205.47.166', '23.205.47.182']"
+    },
+    {
+        "id": 24,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "8.8.8.8",
+        "detected_at": "2026-01-07T16:05:01.494189+00:00",
+        "description": "DNS spoofing detected for honzik.avcdn.net: got 95.101.35.201, expected ['23.205.47.166', '23.205.47.182']"
+    },
+    {
+        "id": 23,
+        "type": "DNS_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "8.8.8.8",
+        "detected_at": "2026-01-07T16:05:01.484152+00:00",
+        "description": "DNS spoofing detected for honzik.avcdn.net: got 95.101.35.210, expected ['23.205.47.166', '23.205.47.182']"
+    },
+    {
+        "id": 22,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:04:46.959857+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 21,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:04:46.952189+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 20,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:04:12.656906+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 19,
+        "type": "MAC_DUPLICATE",
+        "severity": "WARNING",
+        "source_ip": null,
+        "detected_at": "2026-01-07T16:04:12.648799+00:00",
+        "description": "MAC address 14:75:5b:4c:6b:2a is associated with multiple IPs: 192.168.0.125, 192.168.0.100"
+    },
+    {
+        "id": 18,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T16:04:04.404887+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 00:0c:29:be:60:af to 82:f0:d9:d5:2f:a9"
+    },
+    {
+        "id": 17,
+        "type": "ARP_SPOOF",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.0.1",
+        "detected_at": "2026-01-07T16:03:41.226518+00:00",
+        "description": "ARP spoofing detected: IP 192.168.0.1 changed from MAC 82:f0:d9:d5:2f:a9 to 00:0c:29:be:60:af"
+    },
+    {
+        "id": 16,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T21:29:19.781627+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    },
+    {
+        "id": 15,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T21:14:19.392039+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    },
+    {
+        "id": 14,
+        "type": "ROGUE_DHCP",
+        "severity": "CRITICAL",
+        "source_ip": "192.168.152.254",
+        "detected_at": "2026-01-06T20:59:20.246017+00:00",
+        "description": "Rogue DHCP server detected: 192.168.152.254 (00:50:56:fd:00:83)"
+    }
+]
